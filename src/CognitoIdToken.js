@@ -23,6 +23,7 @@ export default class CognitoIdToken {
    * Constructs a new CognitoIdToken object
    * @param {string=} IdToken The JWT Id token
    */
+  
   constructor(IdToken) {
     // Assign object
     this.jwtToken = IdToken || '';
